@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div style="display: flex; width: 85%; height: 85%">
+        <div style="flex: 2" class="test-border">
+          groups
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              border-radius: 6px;
+              margin: 6px;
+            "
+            class="test-border"
+          >
+            <div>
+              <img
+                src="https://miro.medium.com/max/1200/1*4DvdfTyTJsP10bST3HPsAA.png"
+                style="width: 32px; height: 32px; border-radius: 50%"
+              />
+            </div>
+            <div>Global</div>
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              border-radius: 6px;
+              margin: 6px;
+            "
+            class="test-border"
+          >
+            <div>
+              <img
+                src="https://miro.medium.com/max/1200/1*4DvdfTyTJsP10bST3HPsAA.png"
+                style="width: 32px; height: 32px; border-radius: 50%"
+              />
+            </div>
+            <div>Group 190-1</div>
+          </div>
+        </div>
+        <div
+          style="flex: 4; display: flex; flex-direction: column"
+          class="test-border"
+        >
+          messages
+          <div id="all_messages" style="display: flex; flex-direction: column; overflow: scroll;">
+            <div
+              style="
+                align-self: flex-end;
+                border-radius: 6px;
+                margin: 4px;
+                padding: 4px 16px;
+                max-width: 50%;
+                background-color: lightgreen;
+              "
+              class="test-border"
+            >
+              Salam
+            </div>
+            <div
+              style="
+                align-self: flex-start;
+                border-radius: 6px;
+                margin: 4px;
+                padding: 4px 16px;
+                max-width: 50%;
+              "
+              class="test-border"
+            >
+              Salam necesen? nece gedir? hello world all about programming
+            </div>
+            <div
+              style="
+                align-self: flex-end;
+                border-radius: 6px;
+                margin: 4px;
+                padding: 4px 16px;
+                max-width: 50%;
+                background-color: lightgreen;
+              "
+              class="test-border"
+            >
+              yaxsiliq sen?
+            </div>
+            <div
+              style="
+                align-self: flex-start;
+                border-radius: 6px;
+                margin: 4px;
+                padding: 4px 16px;
+                max-width: 50%;
+              "
+              class="test-border"
+            >
+              ala bula gedir
+            </div>
+            <div
+              style="
+                align-self: flex-end;
+                border-radius: 6px;
+                margin: 4px;
+                padding: 4px 16px;
+                max-width: 50%;
+                background-color: lightgreen;
+              "
+              class="test-border"
+            >
+              :))
+            </div>
+            <div
+              style="
+                align-self: flex-start;
+                border-radius: 6px;
+                margin: 4px;
+                padding: 4px 16px;
+                max-width: 50%;
+              "
+              class="test-border"
+            >
+              😂😂😂
+            </div>
+          </div>
+          <div style="margin-top: auto">
+            <input id="input_message"
+              type="text"
+              style="
+                width: 100%;
+                padding: 5px;
+                margin: 0;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -o-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                box-sizing: border-box;
+              "
+            />
+            <input id="btn_send_message" type="button" value="Send" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="client.js"></script>
+  </body>
+</html>
